@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="shortcut icon" href="/img/flickr_avatar_07.png">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap" rel="stylesheet">
+
+  <title>Фотосайт</title>
+  <style>
+    body {
+      background-color: rgb(224, 224, 224);
+      font-family: 'Gowun Batang', serif;
+    }
+
+    .nav {
+      font-weight: 600;
+      padding-top: 5px;
+      padding-bottom: 10px;
+    }
+
+    .nav h3 {
+      margin-right: 70%;
+      margin-left: 10px;
+      color: rgb(183, 28, 28);
+      ;
+    }
+
+    .active {
+      color: rgb(11, 132, 207);
+    }
+
+    a {
+      color: rgb(149, 163, 172);
+    }
+
+    a:hover {
+      color: rgb(112, 184, 230);
+      font-style: italic;
+    }
+
+    .col-sm-6 {
+      margin-top: 5px;
+    }
+
+    .image {
+      text-align: center;
+      padding-bottom: 2%;
+    }
+
+    .image h1 {
+      padding-bottom: 2%;
+    }
+
+    .offer__slider-counter {
+      margin-left: 40%;
+      margin-bottom: 2%;
+      color: grey;
+      font-weight: 800;
+    }
+
+    .offer__slider-wrapper img {
+      max-width: 80%;
+      max-height: 30rem;
+      padding-right: 5%;
+    }
+  </style>
+</head>
+
+<body>
+  <ul class="nav bg-dark">
+    <h3>Профессиональный фотограф, ЮЛ</h3>
+    <li class="nav-item">
+      <a class="nav-link active" href="/index.html">Главная</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/contacts.html">Контакты и цены</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/response.html">Отзывы</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/portfolio.html">Портфолио</a>
+    </li>
+  </ul>
+
+  <div class="container-fluid">
+
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="card" style="width: 100%; background:rgb(236, 239, 241);">
+          <img src="/img/портрет.jpg" class="card-img-top px-1 pt-1" alt="my portrait" style="width: 27%;">
+          <div class="card-body">
+            <h5 class="card-title">Обо мне</h5>
+            <p class="card-text">Добрый день! Данный сайт создан в учебных целях (курс "0769_Frontend-разработка", ГОСУДАРСТВЕННОЕ БЮДЖЕТНОЕ ОБРАЗОВАТЕЛЬНОЕ УЧРЕЖДЕНИЕ
+              ГОРОДА МОСКВЫ ДОПОЛНИТЕЛЬНОГО ПРОФЕССИОНАЛЬНОГО ОБРАЗОВАНИЯ ЦЕНТР ПРОФЕССИОНАЛЬНЫХ КВАЛИФИКАЦИЙ И
+              СОДЕЙСТВИЯ ТРУДОУСТРОЙСТВУ «ПРОФЕССИОНАЛ» ) в качестве итоговой аттестационной работы на тему
+              «Разработка web-ресурса с использованием технологий HTML, CSS, JavaScript».
+              При разработке сайта были применены технологии HTML, CSS, Bootstrap 4.6, JavaScript (создан слайдер на главной странице, также подготовлена фронтенд часть формы отправки сообщения 
+               на сервер (на странице "Контаткы и цены") и добавления отзывов на страницу (вкладка "Отзывы")). Все изображения, использованные при создании сайта, являются копиями работ великих художников, взятых на просторах интернета.
+              В дальнейшем сайт планируется дорабатываться и будет наполнен реальными работами фотографа.</p>
+            <a href="/response.html" class="btn btn-primary">Почитать отзывы</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 image">
+        <h1>Примеры моих работ</h1>
+
+
+        <div class="offer__slider">
+          <div class="row offer__slider-counter">
+            <div class="offer__slider-prev">
+              <img src="/img/left.svg" alt="prev">
+            </div>
+            <span id="current">03</span>/<span id="total">09</span>
+            <div class="offer__slider-next">
+              <img src="/img/right.svg" alt="next">
+            </div>
+          </div>
+
+          <div class="offer__slider-wrapper">
+            <div class="offer__slide">
+              <img src="/img/0009.jpg" alt="0001">
+            </div>
+            <div class="offer__slide">
+              <img src="/img/0002.jpg" alt="0002">
+            </div>
+            <div class="offer__slide">
+              <img src="/img/0003.jpg" alt="0003">
+            </div>
+            <div class="offer__slide">
+              <img src="/img/0004.jpg" alt="0004">
+            </div>
+            <div class="offer__slide">
+              <img src="/img/0005.jpg" alt="0005">
+            </div>
+            <div class="offer__slide">
+              <img src="/img/0006.jpg" alt="0006">
+            </div>
+            <div class="offer__slide">
+              <img src="/img/0007.jpg" alt="0007">
+            </div>
+            <div class="offer__slide">
+              <img src="/img/0008.jpg" alt="0008">
+            </div>
+            <div class="offer__slide">
+              <img src="/img/0001.jpg" alt="0009">
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  </div>
+  </div>
+
+  <script>
+    // Slider
+
+    let slideIndex = 1;
+    const slides = document.querySelectorAll('.offer__slide'),
+      prev = document.querySelector('.offer__slider-prev'),
+      next = document.querySelector('.offer__slider-next'),
+      total = document.querySelector('#total'),
+      current = document.querySelector('#current');
+
+    showSlides(slideIndex);
+
+    if (slides.length < 10) {
+      total.textContent = `0${slides.length}`;
+    } else {
+      total.textContent = slides.length;
+    }
+
+    function showSlides(n) {
+      if (n > slides.length) {
+        slideIndex = 1;
+      }
+      if (n < 1) {
+        slideIndex = slides.length;
+      }
+
+      slides.forEach((item) => item.style.display = 'none');
+
+      slides[slideIndex - 1].style.display =
+        'block';
+
+      if (slides.length < 10) {
+        current.textContent = `0${slideIndex}`;
+      } else {
+        current.textContent = slideIndex;
+      }
+    }
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    prev.addEventListener('click', function () {
+      plusSlides(-1);
+    });
+
+    next.addEventListener('click', function () {
+      plusSlides(1);
+    });
+  </script>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
+  </script>
+
+</body>
+
+</html>
